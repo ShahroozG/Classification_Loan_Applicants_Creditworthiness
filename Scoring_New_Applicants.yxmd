@@ -1,0 +1,269 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="10.5">
+  <Nodes>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Shahrooz\Desktop\Learning\Data Science\Udacity\Business_Analysis\P5_Classification\customers-to-score.xlsx|`Sheet1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>customers-to-score.xlsx
+Table=`Sheet1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Account-Balance" size="255" source="File: C:\Users\Shahrooz\Desktop\Learning\Data Science\Udacity\Business_Analysis\P5_Classification\customers-to-score.xlsx|`Sheet1$`" type="V_String" />
+            <Field name="Duration-of-Credit-Month" source="File: C:\Users\Shahrooz\Desktop\Learning\Data Science\Udacity\Business_Analysis\P5_Classification\customers-to-score.xlsx|`Sheet1$`" type="Double" />
+            <Field name="Payment-Status-of-Previous-Credit" size="255" source="File: C:\Users\Shahrooz\Desktop\Learning\Data Science\Udacity\Business_Analysis\P5_Classification\customers-to-score.xlsx|`Sheet1$`" type="V_String" />
+            <Field name="Purpose" size="255" source="File: C:\Users\Shahrooz\Desktop\Learning\Data Science\Udacity\Business_Analysis\P5_Classification\customers-to-score.xlsx|`Sheet1$`" type="V_String" />
+            <Field name="Credit-Amount" source="File: C:\Users\Shahrooz\Desktop\Learning\Data Science\Udacity\Business_Analysis\P5_Classification\customers-to-score.xlsx|`Sheet1$`" type="Double" />
+            <Field name="Value-Savings-Stocks" size="255" source="File: C:\Users\Shahrooz\Desktop\Learning\Data Science\Udacity\Business_Analysis\P5_Classification\customers-to-score.xlsx|`Sheet1$`" type="V_String" />
+            <Field name="Length-of-current-employment" size="255" source="File: C:\Users\Shahrooz\Desktop\Learning\Data Science\Udacity\Business_Analysis\P5_Classification\customers-to-score.xlsx|`Sheet1$`" type="V_String" />
+            <Field name="Instalment-per-cent" source="File: C:\Users\Shahrooz\Desktop\Learning\Data Science\Udacity\Business_Analysis\P5_Classification\customers-to-score.xlsx|`Sheet1$`" type="Double" />
+            <Field name="Guarantors" size="255" source="File: C:\Users\Shahrooz\Desktop\Learning\Data Science\Udacity\Business_Analysis\P5_Classification\customers-to-score.xlsx|`Sheet1$`" type="V_String" />
+            <Field name="Duration-in-Current-address" source="File: C:\Users\Shahrooz\Desktop\Learning\Data Science\Udacity\Business_Analysis\P5_Classification\customers-to-score.xlsx|`Sheet1$`" type="Double" />
+            <Field name="Most-valuable-available-asset" source="File: C:\Users\Shahrooz\Desktop\Learning\Data Science\Udacity\Business_Analysis\P5_Classification\customers-to-score.xlsx|`Sheet1$`" type="Double" />
+            <Field name="Age-years" source="File: C:\Users\Shahrooz\Desktop\Learning\Data Science\Udacity\Business_Analysis\P5_Classification\customers-to-score.xlsx|`Sheet1$`" type="Double" />
+            <Field name="Concurrent-Credits" size="255" source="File: C:\Users\Shahrooz\Desktop\Learning\Data Science\Udacity\Business_Analysis\P5_Classification\customers-to-score.xlsx|`Sheet1$`" type="V_String" />
+            <Field name="Type-of-apartment" source="File: C:\Users\Shahrooz\Desktop\Learning\Data Science\Udacity\Business_Analysis\P5_Classification\customers-to-score.xlsx|`Sheet1$`" type="Double" />
+            <Field name="No-of-Credits-at-this-Bank" size="255" source="File: C:\Users\Shahrooz\Desktop\Learning\Data Science\Udacity\Business_Analysis\P5_Classification\customers-to-score.xlsx|`Sheet1$`" type="V_String" />
+            <Field name="Occupation" source="File: C:\Users\Shahrooz\Desktop\Learning\Data Science\Udacity\Business_Analysis\P5_Classification\customers-to-score.xlsx|`Sheet1$`" type="Double" />
+            <Field name="No-of-dependents" source="File: C:\Users\Shahrooz\Desktop\Learning\Data Science\Udacity\Business_Analysis\P5_Classification\customers-to-score.xlsx|`Sheet1$`" type="Double" />
+            <Field name="Telephone" source="File: C:\Users\Shahrooz\Desktop\Learning\Data Science\Udacity\Business_Analysis\P5_Classification\customers-to-score.xlsx|`Sheet1$`" type="Double" />
+            <Field name="Foreign-Worker" source="File: C:\Users\Shahrooz\Desktop\Learning\Data Science\Udacity\Business_Analysis\P5_Classification\customers-to-score.xlsx|`Sheet1$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings>
+        <Position x="234" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="score field">Score</Value>
+          <Value name="is oversampled">False</Value>
+          <Value name="oversampled value" />
+          <Value name="original percent">2.0</Value>
+          <Value name="log y">False</Value>
+          <Value name="prediction.interval">False</Value>
+          <Value name="interval.level">95</Value>
+          <Value name="append.xdf">False</Value>
+          <Value name="num.records">256000</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Account.Balance" size="134217727" source="R-DATA:" type="V_WString" />
+            <Field name="Duration.of.Credit.Month" source="R-DATA:" type="Double" />
+            <Field name="Payment.Status.of.Previous.Credit" size="134217727" source="R-DATA:" type="V_WString" />
+            <Field name="Purpose" size="134217727" source="R-DATA:" type="V_WString" />
+            <Field name="Credit.Amount" source="R-DATA:" type="Double" />
+            <Field name="Value.Savings.Stocks" size="134217727" source="R-DATA:" type="V_WString" />
+            <Field name="Length.of.current.employment" size="134217727" source="R-DATA:" type="V_WString" />
+            <Field name="Instalment.per.cent" source="R-DATA:" type="Double" />
+            <Field name="Guarantors" size="134217727" source="R-DATA:" type="V_WString" />
+            <Field name="Duration.in.Current.address" source="R-DATA:" type="Double" />
+            <Field name="Most.valuable.available.asset" source="R-DATA:" type="Double" />
+            <Field name="Age_years" source="R-DATA:" type="Double" />
+            <Field name="Concurrent.Credits" size="134217727" source="R-DATA:" type="V_WString" />
+            <Field name="Type.of.apartment" source="R-DATA:" type="Double" />
+            <Field name="No.of.Credits.at.this.Bank" size="134217727" source="R-DATA:" type="V_WString" />
+            <Field name="Occupation" source="R-DATA:" type="Double" />
+            <Field name="No.of.dependents" source="R-DATA:" type="Double" />
+            <Field name="Telephone" source="R-DATA:" type="Double" />
+            <Field name="Foreign.Worker" source="R-DATA:" type="Double" />
+            <Field name="Score_Creditworthy" source="R-DATA:" type="Double" />
+            <Field name="Score_Non-Creditworthy" source="R-DATA:" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Score.yxmc" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="342" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="Classification_Result" type="V_String" size="64" expression="IF [Score_Creditworthy] &gt; [Score_Non-Creditworthy]&#xA;THEN &quot;Creditworthy&quot;&#xA;ELSE &quot;Non-Creditworthy&quot;&#xA;ENDIF" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Classification_Result=IF [Score_Creditworthy] &gt; [Score_Non-Cr...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="150" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="Age-years" selected="True" rename="Age_years" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="474" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Field>Classification_Result</Field>
+            <Operator>=</Operator>
+            <Operands>
+              <Operand>Creditworthy</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Classification_Result] = "Creditworthy"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="606" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Shahrooz\AppData\Local\Temp\Engine_1372_49b333aa0a994896836f3031057dab47_\Engine_5044_fe7f49eb0405479989d3600e1b0f6d8d_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">C:\Users\Shahrooz\Desktop\Learning\Data Science\Udacity\Business_Analysis\P5_Classification\Forest_Model_Creditworthy_Classifier.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Forest_Model_Creditworthy_Classifier.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Name" size="134217727" source="R-DATA:" type="V_WString" />
+            <Field name="Object" size="268435455" source="R-DATA:SERIAL" type="Blob" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="3" Connection="Left Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="3" Connection="Right Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="True" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Scoring_New_Applicants</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
